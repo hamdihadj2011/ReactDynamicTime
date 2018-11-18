@@ -1,28 +1,18 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React  from 'react';
 import './App.css';
+import Time from './Time.js'
+import Btn from './button.js'
 
-class App extends Component {
-  render() {
+const App = () =>  {
+  
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <Time ms={2500} />
+       <Btn className='start' text='Start'/>
+       <Btn className='reset' text='Reset'/>
       </div>
-    );
-  }
+    )
 }
+
 
 export default App;

@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    margin:50px 100px;
+  }
+  
+  .h,.m,.s{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+  
+  }
+  
+  span{
+    padding-bottom: 8
+    px
+  }
+  .s1{
+    font-weight: bold;
+    font-size: 35px
+  }
+  
+  .s2{
+    color:grey
+  }
